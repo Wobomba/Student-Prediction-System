@@ -7,89 +7,84 @@
   <body>
 
     <div class="Welcome">
-      <h2> Welcome to the homepage of the School Intervention System</h2>
+      <h2> Almost there</h2>
     </div>
 
-    <div class="Form1">
-      <form>
-        <label for="school">School:</label>
-        <select class="" name="school_types">
-          <option value="GP">GP</option>
-          <option value="MS">MS</option>
-        </select><br>
+    <div class="Form2">
+      <form action="{% url 'results'%}">
+        <label for="schoolsup">School Suspension:</label>
+        <select class="" name="schoolsup">
+          <option value="Yes">Yes</option>
+          <option value="No">No</option>
+        </select><br><br>
 
-        <label for="sex">Sex:</label>
-        <select class="" name="sex">
-          <option value="M">M</option>
-          <option value="F">F</option>
-        </select><br>
+        <label for="famsup">Family S:</label>
+        <select class="" name="famsup">
+          <option value="Yes">Yes</option>
+          <option value="No">No</option>
+        </select><br><br>
 
-        <label for="Age">Age:</label>
-        <input type="text" name="age"><br>
+        <label for="paid">Paid:</label>
+        <select class="" name="paid">
+          <option value="Yes">Yes</option>
+          <option value="No">No</option>
+        </select><br><br>
 
-        <label for="address">Address:</label>
-        <select class="" name="address">
-          <option value="U">U</option>
-          <option value="R">R</option>
-        </select><br>
+        <label for="activities">Activities:</label>
+        <select class="" name="activities">
+          <option value="Yes">Yes</option>
+          <option value="No">No</option>
+        </select><br><br>
 
-        <label for="famsize">Family Size:</label>
-        <select class="" name="famsize">
-          <option value="GT3">GT3</option>
-          <option value="LE3">LE3</option>
-        </select><br>
+        <label for="nursery">Nursery:</label>
+        <select class="" name="nursery">
+          <option value="Yes">Yes</option>
+          <option value="No">No</option>
+        </select><br><br>
 
-        <label for="Pstatus">Parents status:</label>
-        <select class="" name="Pstatus">
-          <option value="A">A</option>
-          <option value="T">T</option>
-        </select><br>
+        <label for="higher">Higher:</label>
+        <select class="" name="schoolsup">
+          <option value="Yes">Yes</option>
+          <option value="No">No</option>
+        </select><br><br>
 
-        <label for="Medu">Mother's Education:</label>
-        <input type="text" name="Medu"><br>
+        <label for="internet">Internet:</label>
+        <select class="" name="internet">
+          <option value="Yes">Yes</option>
+          <option value="No">No</option>
+        </select><br><br>
 
-        <label for="Fedu">Father's Education:</label>
-        <input type="text" name="Fedu"><br>
+        <label for="romantic">Romantic:</label>
+        <select class="" name="romantic">
+          <option value="Yes">Yes</option>
+          <option value="No">No</option>
+        </select><br><br>
 
-        <label for="Mjob">Mother's Job:</label>
-        <select class="" name="Mjob">
-          <option value="home">Home</option>
-          <option value="health">Health</option>
-          <option value="services">Services</option>
-        </select><br>
+        <label for="famrel">Family Relationship:</label>
+        <input type="text" name="famrel"><br><br>
 
-        <label for="Fjob">Father's Job:</label>
-        <select class="" name="Fjob">
-          <option value="teacher">Teacher</option>
-          <option value="Services">Services</option>
-          <option value="Other">Other</option>
-        </select><br>
+        <label for="freetime">Free Time:</label>
+        <input type="text" name="freetime"><br><br>
 
-        <label for="Reason">Reason:</label>
-        <select class="" name="Reason">
-          <option value="home">Home</option>
-          <option value="course">Course</option>
-          <option value="reputation">Reputation</option>
-          <option value="other">Other</option>
-        </select><br>
+        <label for="goout">Go out:</label>
+        <input type="text" name="goout"><br><br>
 
-        <label for="gaurdian">Gaurdian:</label>
-        <select class="" name="gaurdian">
-          <option value="mother">Mother</option>
-          <option value="father">Father</option>
-          <option value="other">Other</option>
-        </select><br>
+        <label for="Dalc">Dalc:</label>
+        <input type="text" name="Dalc"><br><br>
 
-        <label for="traveltime">Travel Time:</label>
-        <input type="text" name="traveltime"><br>
+        <label for="health">Health</label>
+        <input type="text" name="health"><br><br>
 
-        <label for="studytime">Study Time:</label>
-        <input type="text" name="studytime"><br>
+        <label for="absences">Absence</label>
+        <input type="text" name="absences"><br><br>
 
-        <label for="failures">Failures:</label>
-        <input type="text" name="failures"><br>
+        <label for="passed">passed:</label>
+        <select class="" name="passed">
+          <option value="Yes">Yes</option>
+          <option value="No">No</option>
+        </select><br><br>
 
-        <input type="Continue" name="continue" value="Continue">
+        <input type="submit" value='submit'>
 
       </form>
     </div>
